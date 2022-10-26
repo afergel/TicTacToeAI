@@ -140,7 +140,7 @@ public class TicTacToeAI {
         ArrayList<Integer> optionValues = new ArrayList<>();
         int i = 0;
         
-        // For each possible option, run this method recursively until the game reaches an end statep
+        // For each possible option, run this method recursively until the game reaches an end state
         for (int choice : options) {
             
             ArrayList<Integer> tempOptions = new ArrayList<>();
